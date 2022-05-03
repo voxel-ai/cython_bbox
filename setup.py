@@ -42,7 +42,7 @@ setup(
     long_description_content_type="text/markdown",
     author = 'Samson Wang',
     author_email = 'samson.c.wang@gmail.com',
-    url = 'https://github.com/samson-wang/cython_bbox.git', 
+    url = 'https://github.com/samson-wang/cython_bbox.git',
     keywords = ['cython_bbox']
 )
 
