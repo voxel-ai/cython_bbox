@@ -28,7 +28,7 @@ ext_modules = [
     Extension(
         name='cython_bbox',
         sources=['src/cython_bbox.pyx'],
-        extra_compile_args = {'gcc': ['/Qstd=c99']},
+        extra_compile_args = ['-Wno-cpp' ],
         include_dirs=[numpy_include]
     )
 ]
